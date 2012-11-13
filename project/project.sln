@@ -5,6 +5,8 @@ Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-CSharp.
 EndProject
 Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-CSharp-Editor.csproj", "{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}"
 EndProject
+Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-UnityScript.unityproj", "{4BF79580-BD40-8719-DEC4-3FC42411B4D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -41,4 +47,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
