@@ -44,7 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RespawnScript.js" />
+     <Compile Include="Assets\BehaviourScript.js" />
      <None Include="Assets\Demo\Shaders\NewShader.shader" />
      <None Include="Assets\Demo\READ ME FIRST.txt" />
   </ItemGroup>

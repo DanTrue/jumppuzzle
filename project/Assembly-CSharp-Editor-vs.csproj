@@ -50,6 +50,9 @@
      <Compile Include="Assets\Editor\ThirdPersonControllerEditor.cs" />
      <None Include="Assets\Demo\Shaders\NewShader.shader" />
      <None Include="Assets\Demo\READ ME FIRST.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
